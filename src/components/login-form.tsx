@@ -29,7 +29,7 @@ export function LoginForm({ className, onToggle }: LoginFormProps) {
   const router = useRouter();
   const [showPassword, setShowPassword] = useState(false);
   const { toast } = useToast();
-
+  console.log(className);
   const {
     register,
     handleSubmit,
